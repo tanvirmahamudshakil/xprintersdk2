@@ -79,10 +79,10 @@ dependencies {
     implementation files("libs/classes.jar")
     implementation files("libs/printersdkv5.7.0.jar")
     implementation files("libs/nyxprinter.jar")
-    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.12.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
-    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.sunmi:printerlibrary:1.0.13'
     implementation 'org.aspectj:aspectjrt:1.9.6'
     implementation 'com.jakewharton.timber:timber:4.7.1'
