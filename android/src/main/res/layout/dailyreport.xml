@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingTop="0dp">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/rootViewBooking"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Report"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAllCaps = "true"/>
+        <TextView
+            android:id="@+id/reportDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAllCaps = "true"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/dotted"
+        android:contentDescription="Dotted" />
+    <LinearLayout
+        android:layout_width="370dp"
+        android:orientation="vertical"
+        android:gravity="clip_horizontal"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/totalOrderContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Orders:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalOrderBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="58"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/onlineOrderContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/onlineorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online order"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/onlineOrderBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="85"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/localOrderContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/localorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local order"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/localOrderBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="85"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/refundOrderContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/refundorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refund order"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/refundOrderBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="85"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="10dp"-->
+<!--            android:src="@drawable/dotted"-->
+<!--            android:contentDescription="Dotted" />-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/cardPaymentContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/cardpayment"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="No of Card Payment"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/noofCardPaymentBox"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:gravity="end"-->
+<!--                android:text="56"-->
+<!--                android:textAlignment="textEnd"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--        </RelativeLayout>-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/noofCashPaymentContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/cashpayment"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="No of Cash Payment:"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/noofcashPaymentBox"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:gravity="end"-->
+<!--                android:text="2023-12-23"-->
+<!--                android:textAlignment="textEnd"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--        </RelativeLayout>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dotted"
+            android:contentDescription="Dotted" />
+        <RelativeLayout
+            android:id="@+id/totalCardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Card:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalCardBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="01"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/totalCashContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalcash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Cash:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalCashBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="25"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dotted"
+            android:contentDescription="Dotted" />
+        <RelativeLayout
+            android:id="@+id/totalPaymentreceiveContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalpayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Payment Received:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalPaymentReceiveBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="05656516"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+
+
+
+
+
+<!--         total refund order amount-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/totalRefundCardContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/totalRefundcard"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Total Refund Card:"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/totalRefundCardBox"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:gravity="end"-->
+<!--                android:text="01"-->
+<!--                android:textAlignment="textEnd"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--        </RelativeLayout>-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/totalRefundCashContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/totalRefundcash"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Total Refund Cash:"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/totalRefundCashBox"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:gravity="end"-->
+<!--                android:text="25"-->
+<!--                android:textAlignment="textEnd"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--        </RelativeLayout>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dotted"
+            android:contentDescription="Dotted" />
+        <RelativeLayout
+            android:id="@+id/totalRefundreceiveContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalRefund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Refund Amount:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalRefundReceiveBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="05656516"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dotted"
+            android:contentDescription="Dotted" />
+
+        <RelativeLayout
+            android:id="@+id/totalBalanceContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Balance:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/totalBalanceBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="05656516"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

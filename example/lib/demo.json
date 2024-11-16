@@ -1,0 +1,1400 @@
+{
+  "id": 10630,
+  "local_id": null,
+  "order_type": "COLLECTION",
+  "order_channel": "ONLINE",
+  "order_date": "2023-10-30 06:12:21",
+  "requester_type": "GUEST",
+  "requester_id": 7486,
+  "requester_uuid": "9a7db12d-79da-4fda-8b02-6f6a88b5d5ad",
+  "shipping_address_id": null,
+  "requested_delivery_timestamp": "2023-10-30 15:20:00",
+  "status": "NEW",
+  "net_amount": 87.87,
+  "discounted_amount": 8.787,
+  "delivery_charge": 0,
+  "payable_amount": 79.083,
+  "payment_type": "CASH",
+  "payment_id": null,
+  "prescriber_id": null,
+  "branch_id": 1001,
+  "comment": null,
+  "created_at": "2023-10-30T06:12:21.000000Z",
+  "updated_at": "2023-10-30T06:12:22.000000Z",
+  "order_products": [
+    {
+      "id": 24209,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2001,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 11.99,
+      "discountable_amount": 0,
+      "comment": "lkjolkoln",
+      "product": {
+        "id": 2001,
+        "sort_order": 1,
+        "uuid": "whole-chicken",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Whole Chicken",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Whole Chicken,wholechicken,category,category,grill items,grillitems,",
+        "property": {
+          "platform": "WEB",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items",
+          "featured": "0"
+        },
+        "files": [
+          {
+            "id": 1,
+            "product_id": 2001,
+            "file_name": "roast-chicken_1692795352.jpg",
+            "type": "general",
+            "file_path": "/var/www/html/ordering_platform_php/flava/api/public/files/products"
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": 24210,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2010,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2010,
+            "sort_order": 1,
+            "uuid": "normal",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Normal",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24211,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2016,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2016,
+            "sort_order": 6,
+            "uuid": "mayonnaise-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Mayonnaise Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24212,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24213,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2014,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24214,
+              "parent_id": 24213,
+              "order_id": 10630,
+              "product_id": 2086,
+              "parent_product_id": 2014,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2086,
+                "sort_order": 1,
+                "uuid": "hot",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Hot",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2014,
+            "sort_order": 4,
+            "uuid": "peri-peri",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Peri Peri",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24215,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2015,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2015,
+            "sort_order": 5,
+            "uuid": "bbq",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "BBQ",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": "topping",
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24216,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2002,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 6.99,
+      "discountable_amount": 0,
+      "comment": "lpjpo",
+      "product": {
+        "id": 2002,
+        "sort_order": 2,
+        "uuid": "half-chicken",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Half Chicken",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Half Chicken,halfchicken,category,category,grill items,grillitems,",
+        "property": {
+          "platform": "BOTH",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items"
+        },
+        "files": []
+      },
+      "components": [
+        {
+          "id": 24217,
+          "parent_id": 24216,
+          "order_id": 10630,
+          "product_id": 2012,
+          "parent_product_id": 2002,
+          "unit": 1,
+          "net_amount": 2.5,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24218,
+              "parent_id": 24217,
+              "order_id": 10630,
+              "product_id": 2024,
+              "parent_product_id": 2012,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2024,
+                "sort_order": 11,
+                "uuid": "mirianda-orange",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Mirianda Orange",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2012,
+            "sort_order": 2,
+            "uuid": "meal-deal-chips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Meal Deal (Chips)",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24219,
+          "parent_id": 24216,
+          "order_id": 10630,
+          "product_id": 2014,
+          "parent_product_id": 2002,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24220,
+              "parent_id": 24219,
+              "order_id": 10630,
+              "product_id": 2127,
+              "parent_product_id": 2014,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2127,
+                "sort_order": 1,
+                "uuid": "lemon",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Lemon",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2014,
+            "sort_order": 4,
+            "uuid": "peri-peri",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Peri Peri",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24221,
+          "parent_id": 24216,
+          "order_id": 10630,
+          "product_id": 2016,
+          "parent_product_id": 2002,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2016,
+            "sort_order": 6,
+            "uuid": "mayonnaise-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Mayonnaise Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24222,
+          "parent_id": 24216,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2002,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24223,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2003,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 4.5,
+      "discountable_amount": 0,
+      "comment": "joihoiu",
+      "product": {
+        "id": 2003,
+        "sort_order": 3,
+        "uuid": "quarter-chicken",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Quarter Chicken",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Quarter Chicken,quarterchicken,category,category,grill items,grillitems,",
+        "property": {
+          "platform": "BOTH",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items"
+        },
+        "files": []
+      },
+      "components": [
+        {
+          "id": 24224,
+          "parent_id": 24223,
+          "order_id": 10630,
+          "product_id": 2013,
+          "parent_product_id": 2003,
+          "unit": 1,
+          "net_amount": 3,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24225,
+              "parent_id": 24224,
+              "order_id": 10630,
+              "product_id": 2023,
+              "parent_product_id": 2013,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2023,
+                "sort_order": 10,
+                "uuid": "mirianda-strawberry",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Mirianda Strawberry",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2013,
+            "sort_order": 3,
+            "uuid": "meal-deal-rice",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Meal Deal (Rice)",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24226,
+          "parent_id": 24223,
+          "order_id": 10630,
+          "product_id": 2015,
+          "parent_product_id": 2003,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2015,
+            "sort_order": 5,
+            "uuid": "bbq",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "BBQ",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": "topping",
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24227,
+          "parent_id": 24223,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2003,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24228,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2005,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 9.9,
+      "discountable_amount": 0,
+      "comment": "jopijojio",
+      "product": {
+        "id": 2005,
+        "sort_order": 5,
+        "uuid": "lamb-chops-4pc",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Lamb Chops (4pc)",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Lamb Chops (4pc),lambchops4pc,category,category,grill items,grillitems,",
+        "property": {
+          "platform": "BOTH",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items",
+          "featured": "1"
+        },
+        "files": [
+          {
+            "id": 11,
+            "product_id": 2005,
+            "file_name": "WhatsApp Image 2023-08-24 at 01.03.52_1693050025.jpg",
+            "type": "general",
+            "file_path": "/var/www/html/ordering_platform_php/flava/api/public/files/products"
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": 24229,
+          "parent_id": 24228,
+          "order_id": 10630,
+          "product_id": 2013,
+          "parent_product_id": 2005,
+          "unit": 1,
+          "net_amount": 3,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24230,
+              "parent_id": 24229,
+              "order_id": 10630,
+              "product_id": 2024,
+              "parent_product_id": 2013,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2024,
+                "sort_order": 11,
+                "uuid": "mirianda-orange",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Mirianda Orange",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2013,
+            "sort_order": 3,
+            "uuid": "meal-deal-rice",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Meal Deal (Rice)",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24231,
+          "parent_id": 24228,
+          "order_id": 10630,
+          "product_id": 2014,
+          "parent_product_id": 2005,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24232,
+              "parent_id": 24231,
+              "order_id": 10630,
+              "product_id": 2127,
+              "parent_product_id": 2014,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2127,
+                "sort_order": 1,
+                "uuid": "lemon",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Lemon",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2014,
+            "sort_order": 4,
+            "uuid": "peri-peri",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Peri Peri",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24233,
+          "parent_id": 24228,
+          "order_id": 10630,
+          "product_id": 2016,
+          "parent_product_id": 2005,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2016,
+            "sort_order": 6,
+            "uuid": "mayonnaise-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Mayonnaise Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24234,
+          "parent_id": 24228,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2005,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24235,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2007,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 26.5,
+      "discountable_amount": 0,
+      "comment": "ijohibjuhbki",
+      "product": {
+        "id": 2007,
+        "sort_order": 7,
+        "uuid": "mega-mixed-grill",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Mega Mixed Grill",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Mega Mixed Grill,megamixedgrill,category,category,grill items,grillitems,1/2 chicken, 2 lamb chops, 4 wings, 4 strips, 2 ribs & large chips",
+        "property": {
+          "short_description": "1/2 chicken, 2 lamb chops, 4 wings, 4 strips, 2 ribs & large chips",
+          "platform": "BOTH",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items"
+        },
+        "files": []
+      },
+      "components": [
+        {
+          "id": 24236,
+          "parent_id": 24235,
+          "order_id": 10630,
+          "product_id": 2013,
+          "parent_product_id": 2007,
+          "unit": 1,
+          "net_amount": 3,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24237,
+              "parent_id": 24236,
+              "order_id": 10630,
+              "product_id": 2023,
+              "parent_product_id": 2013,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2023,
+                "sort_order": 10,
+                "uuid": "mirianda-strawberry",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Mirianda Strawberry",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2013,
+            "sort_order": 3,
+            "uuid": "meal-deal-rice",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Meal Deal (Rice)",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24238,
+          "parent_id": 24235,
+          "order_id": 10630,
+          "product_id": 2015,
+          "parent_product_id": 2007,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2015,
+            "sort_order": 5,
+            "uuid": "bbq",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "BBQ",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": "topping",
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24239,
+          "parent_id": 24235,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2007,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24240,
+          "parent_id": 24235,
+          "order_id": 10630,
+          "product_id": 2016,
+          "parent_product_id": 2007,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2016,
+            "sort_order": 6,
+            "uuid": "mayonnaise-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Mayonnaise Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24241,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2001,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 11.99,
+      "discountable_amount": 0,
+      "comment": null,
+      "product": {
+        "id": 2001,
+        "sort_order": 1,
+        "uuid": "whole-chicken",
+        "barcode": null,
+        "type": "ITEM",
+        "short_name": "Whole Chicken",
+        "description": null,
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": "Whole Chicken,wholechicken,category,category,grill items,grillitems,",
+        "property": {
+          "platform": "WEB",
+          "epos_category": "grill-items",
+          "is_coupon": "FALSE",
+          "category": "grill-items",
+          "featured": "0"
+        },
+        "files": [
+          {
+            "id": 1,
+            "product_id": 2001,
+            "file_name": "roast-chicken_1692795352.jpg",
+            "type": "general",
+            "file_path": "/var/www/html/ordering_platform_php/flava/api/public/files/products"
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": 24242,
+          "parent_id": 24241,
+          "order_id": 10630,
+          "product_id": 2012,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 2.5,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24243,
+              "parent_id": 24242,
+              "order_id": 10630,
+              "product_id": 2023,
+              "parent_product_id": 2012,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2023,
+                "sort_order": 10,
+                "uuid": "mirianda-strawberry",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Mirianda Strawberry",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2012,
+            "sort_order": 2,
+            "uuid": "meal-deal-chips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Meal Deal (Chips)",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24244,
+          "parent_id": 24241,
+          "order_id": 10630,
+          "product_id": 2014,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [
+            {
+              "id": 24245,
+              "parent_id": 24244,
+              "order_id": 10630,
+              "product_id": 2127,
+              "parent_product_id": 2014,
+              "unit": 1,
+              "net_amount": 0,
+              "discountable_amount": 0,
+              "comment": null,
+              "components": [],
+              "product": {
+                "id": 2127,
+                "sort_order": 1,
+                "uuid": "lemon",
+                "barcode": null,
+                "type": "COMPONENT",
+                "short_name": "Lemon",
+                "description": null,
+                "status": 1,
+                "discountable": 1,
+                "creator_id": 2,
+                "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+                "tags": null,
+                "property": {
+                  "platform": "BOTH",
+                  "is_coupon": "FALSE"
+                }
+              }
+            }
+          ],
+          "product": {
+            "id": 2014,
+            "sort_order": 4,
+            "uuid": "peri-peri",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Peri Peri",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        },
+        {
+          "id": 24246,
+          "parent_id": 24241,
+          "order_id": 10630,
+          "product_id": 2017,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0.2,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2017,
+            "sort_order": 7,
+            "uuid": "chili-dips",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Chili Dips",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24247,
+      "parent_id": null,
+      "order_id": 10630,
+      "product_id": 2019,
+      "parent_product_id": null,
+      "unit": 1,
+      "net_amount": 8.787,
+      "discountable_amount": 0,
+      "comment": "discounted",
+      "product": {
+        "id": 2019,
+        "sort_order": 2,
+        "uuid": "onallorder",
+        "barcode": null,
+        "type": "DISCOUNT",
+        "short_name": "ONALLORDER",
+        "description": "10% OFF on all order",
+        "status": 1,
+        "discountable": 1,
+        "creator_id": 2,
+        "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+        "tags": null,
+        "property": {
+          "platform": "WEB",
+          "discount_type": "PERCENTAGE",
+          "discount_value": "10",
+          "is_coupon": "FALSE"
+        },
+        "files": []
+      },
+      "components": []
+    }
+  ],
+  "requester": {
+    "id": 5,
+    "uuid": "",
+    "role":  "",
+    "name": "",
+    "email":  "",
+    "username": "",
+    "phone":  "",
+    "email_verified_at": "",
+    "provider":  "",
+    "provider_id": "",
+    "created_at":  "",
+    "updated_at": "",
+    "property":  {
+      "first_name": "",
+      "last_name": "",
+      "phone":  ""
+    }
+  },
+  "requester_guest": {
+    "id": 7486,
+    "uuid": "9a7db12d-79da-4fda-8b02-6f6a88b5d5ad",
+    "first_name": "Tanvir",
+    "last_name": "Mhamud",
+    "email": "shakilhassan887@gmail.com",
+    "phone": "01932334567",
+    "created_at": "2023-10-30T06:12:21.000000Z",
+    "updated_at": "2023-10-30T06:12:21.000000Z"
+  },
+  "shipping_address": {
+    "id": 5,
+    "name": "",
+    "type":  "",
+    "creator_type": "",
+    "creator_id":  5,
+    "status": 5,
+    "created_at":  "",
+    "updated_at": "",
+    "property":  {
+      "house": "",
+      "town": "",
+      "state":  "",
+      "postcode": "",
+      "address":  ""
+    }
+  },
+  "order_files": [],
+  "prescriber": null,
+  "payment": {
+    "id":  5,
+    "requester_type": "",
+    "requester_id":  5,
+    "reference": "",
+    "payment_date":  "",
+    "amount": 5,
+    "source":  "",
+    "card_type": "",
+    "status":  "",
+    "comment": "",
+    "created_at":  "",
+    "updated_at": ""
+  },
+  "cash_entry": [
+    {
+      "id": 5,
+      "parent_id": "",
+      "order_id":  5,
+      "product_id": 5,
+      "parent_product_id":  "",
+      "unit": 8,
+      "net_amount":  5.0,
+      "discountable_amount": 5,
+      "comment":  "",
+      "product": {
+        "id": 5,
+        "sort_order": 1,
+        "uuid":  "",
+        "barcode": "",
+        "type":  "",
+        "short_name": "",
+        "description":  "",
+        "status": 5,
+        "discountable":  5,
+        "creator_id": 5,
+        "creator_uuid":  "",
+        "tags": "",
+        "property":  {
+          "phone":  "",
+          "email": "",
+          "address":  "",
+          "postcode": ""
+        }
+      },
+      "components":  [
+        {
+          "id": 24210,
+          "parent_id": 24209,
+          "order_id": 10630,
+          "product_id": 2010,
+          "parent_product_id": 2001,
+          "unit": 1,
+          "net_amount": 0,
+          "discountable_amount": 0,
+          "comment": null,
+          "components": [],
+          "product": {
+            "id": 2010,
+            "sort_order": 1,
+            "uuid": "normal",
+            "barcode": null,
+            "type": "COMPONENT",
+            "short_name": "Normal",
+            "description": null,
+            "status": 1,
+            "discountable": 1,
+            "creator_id": 2,
+            "creator_uuid": "98a8d4fb-5b65-4f62-b121-822924b9549c",
+            "tags": null,
+            "property": {
+              "platform": "BOTH",
+              "is_coupon": "FALSE"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "branch": {
+    "id": 1001,
+    "name": "Biscot Road",
+    "value": "biscot-road",
+    "created_at": null,
+    "updated_at": null,
+    "property": {
+      "phone": "01582 488900",
+      "email": "contact@theflava.co.uk",
+      "address": "157 Biscot Road, Luton, LU31AW",
+      "postcode": "LU3 1AW"
+    }
+  }
+}

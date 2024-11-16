@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.xprintersdk">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <queries>
+        <package android:name="net.nyx.printerservice"/>
+    </queries>
+    <application>
+
+        <service android:name="net.posprinter.service.PosprinterService" />
+    </application>
+</manifest>

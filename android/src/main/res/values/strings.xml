@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">XPrinter</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <string name="main_ver">Version</string>
+    <string name="main_paper_out">Paper out</string>
+    <string name="main_text">Print text</string>
+    <string name="main_barcode">Print barcode</string>
+    <string name="main_qr_code">Print QR code</string>
+    <string name="main_pic">Print bitmap</string>
+    <string name="main_lbl">Print label</string>
+    <string name="main_lbl_learning">Label learning print</string>
+    <string name="main_scan">Scanner</string>
+    <string name="res_not_support">Current printer version is not support</string>
+
+    <string name="result_sent_err">Send error</string>
+    <string name="result_recv_err">Receiver error</string>
+    <string name="result_timeout">communication timeout</string>
+    <string name="result_params_err">Params error</string>
+    <string name="result_unknown_err">Unknown error</string>
+    <string name="result_device_not_conn">Device not connected</string>
+    <string name="result_device_disconnect">Device disconnected</string>
+    <string name="result_conn_err">Device connect error</string>
+    <string name="result_device_connected">Device connected</string>
+    <string name="result_device_not_support">Device not support</string>
+    <string name="result_device_not_found">Device not found</string>
+    <string name="result_device_open_err">Device open error</string>
+    <string name="result_device_no_permission">Device no permission</string>
+    <string name="result_bt_not_open">Bluetooth not open</string>
+    <string name="result_bt_no_location">Location not open</string>
+    <string name="result_bt_no_bonded">No bonded device</string>
+    <string name="result_bt_scan_timeout">Bluetooth scan timeout</string>
+    <string name="result_bt_scan_err">Bluetooth scan error</string>
+    <string name="result_bt_scan_stop">Bluetooth stop scan</string>
+    <string name="result_prn_cover_open">Printer cover open</string>
+    <string name="result_prn_params_err">Printer params error</string>
+    <string name="result_prn_no_paper">Printer no paper</string>
+    <string name="result_prn_overheat">Printer overheat</string>
+    <string name="result_prn_unknown_err">Printer unknown error</string>
+    <string name="result_prn_printing">Printer is printing</string>
+    <string name="result_prn_no_nfc">Printer no NFC</string>
+    <string name="result_nfc_no_paper">Printer NFC no paper</string>
+    <string name="result_prn_low_battery">Printer low battery</string>
+    <string name="result_prn_locate_err">Printer locate error</string>
+    <string name="result_prn_detect_err">Printer label detect error</string>
+    <string name="result_prn_no_detect">Printer label not detected</string>
+    <string name="result_unknown_cmd">Unknown error</string>
+
+    <string name="print_text">I\'ve been living with a shadow overhead\nI\'ve been sleeping with a cloud above my bed\nI\'ve been lonely for so long\nTrapped in the past, I just can\'t seem to move on</string>
+
+</resources>
